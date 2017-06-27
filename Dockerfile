@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM intel-edison-debian:jessie
 ENV VERSION 2.28
 RUN apt-get update -q
 RUN apt-get install -qy curl build-essential
